@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="PartnersShopify">
+        <classes>
+            <class name="io.vtcustomer.PartnersShopify_demo2">
+                <methods>
+                    <include name="partnersShopifyLogin"/>
+                    <include name="myShopify_admin"/>
+                    <include name="storeOnline"/>
+                    <include name="buyItNow"/>
+                    <include name="cardPayment"/>
+                    <exclude name="vtUserLogin"/>
+                    <exclude name="showRiskManagement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" name="VtCustomer_RiskManagement">
+        <classes>
+            <class name="io.vtcustomer.VtCustomer_RiskManagement">
+                <methods>
+                    <include name="vtUserLogin"/>
+                    <include name="showRiskManagement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

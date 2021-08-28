@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/GUNTAS/IdeaProjects/SeleniumTestProj/src/test/java/com/copperchips/TestMultipleBrowserDemo.java">
+        <classes>
+            <class name="com.copperchips.TestMultipleBrowserDemo">
+                <methods>
+                    <include name="googleSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

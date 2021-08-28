@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="addNewUser(failed)">
+    <classes>
+      <class name="io.vtcustomer.AddNewUser">
+        <methods>
+          <include name="vtAddUser"/>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- io.vtcustomer.AddNewUser -->
+    </classes>
+  </test> <!-- addNewUser(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

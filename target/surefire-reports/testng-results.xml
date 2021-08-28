@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-19T20:10:13 IST" name="All Test Suite" finished-at="2021-08-19T20:12:10 IST" duration-ms="117140">
+    <groups>
+    </groups>
+    <test started-at="2021-08-19T20:10:13 IST" name="PartnersShopify" finished-at="2021-08-19T20:11:37 IST" duration-ms="83660">
+      <class name="io.vtcustomer.PartnersShopify_demo2">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:io.vtcustomer.PartnersShopify_demo2@614ca7df]" started-at="2021-08-19T20:10:13 IST" name="setUpTest" finished-at="2021-08-19T20:10:19 IST" duration-ms="6259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="partnersShopifyLogin()[pri:0, instance:io.vtcustomer.PartnersShopify_demo2@614ca7df]" started-at="2021-08-19T20:10:20 IST" name="partnersShopifyLogin" finished-at="2021-08-19T20:10:40 IST" duration-ms="20327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnersShopifyLogin -->
+        <test-method signature="myShopify_admin()[pri:0, instance:io.vtcustomer.PartnersShopify_demo2@614ca7df]" started-at="2021-08-19T20:10:40 IST" name="myShopify_admin" finished-at="2021-08-19T20:10:49 IST" depends-on-methods="io.vtcustomer.PartnersShopify_demo2.partnersShopifyLogin" duration-ms="9011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myShopify_admin -->
+        <test-method signature="storeOnline()[pri:0, instance:io.vtcustomer.PartnersShopify_demo2@614ca7df]" started-at="2021-08-19T20:10:49 IST" name="storeOnline" finished-at="2021-08-19T20:11:05 IST" depends-on-methods="io.vtcustomer.PartnersShopify_demo2.myShopify_admin" duration-ms="16409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeOnline -->
+        <test-method signature="buyItNow()[pri:0, instance:io.vtcustomer.PartnersShopify_demo2@614ca7df]" started-at="2021-08-19T20:11:05 IST" name="buyItNow" finished-at="2021-08-19T20:11:21 IST" depends-on-methods="io.vtcustomer.PartnersShopify_demo2.storeOnline" duration-ms="15860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyItNow -->
+        <test-method signature="cardPayment()[pri:0, instance:io.vtcustomer.PartnersShopify_demo2@614ca7df]" started-at="2021-08-19T20:11:21 IST" name="cardPayment" finished-at="2021-08-19T20:11:37 IST" depends-on-methods="io.vtcustomer.PartnersShopify_demo2.buyItNow" duration-ms="15745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardPayment -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:io.vtcustomer.PartnersShopify_demo2@614ca7df]" started-at="2021-08-19T20:11:37 IST" name="tearDownTest" finished-at="2021-08-19T20:11:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- io.vtcustomer.PartnersShopify_demo2 -->
+    </test> <!-- PartnersShopify -->
+    <test started-at="2021-08-19T20:11:37 IST" name="VtCustomer_RiskManagement" finished-at="2021-08-19T20:12:10 IST" duration-ms="33460">
+      <class name="io.vtcustomer.VtCustomer_RiskManagement">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:io.vtcustomer.VtCustomer_RiskManagement@29215f06]" started-at="2021-08-19T20:11:37 IST" name="setUpTest" finished-at="2021-08-19T20:11:41 IST" duration-ms="4028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="vtUserLogin()[pri:0, instance:io.vtcustomer.VtCustomer_RiskManagement@29215f06]" started-at="2021-08-19T20:11:41 IST" name="vtUserLogin" finished-at="2021-08-19T20:12:00 IST" duration-ms="18970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtUserLogin -->
+        <test-method signature="showRiskManagement()[pri:0, instance:io.vtcustomer.VtCustomer_RiskManagement@29215f06]" started-at="2021-08-19T20:12:00 IST" name="showRiskManagement" finished-at="2021-08-19T20:12:10 IST" depends-on-methods="io.vtcustomer.VtCustomer_RiskManagement.vtUserLogin" duration-ms="10458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showRiskManagement -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:io.vtcustomer.VtCustomer_RiskManagement@29215f06]" started-at="2021-08-19T20:12:10 IST" name="tearDownTest" finished-at="2021-08-19T20:12:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- io.vtcustomer.VtCustomer_RiskManagement -->
+    </test> <!-- VtCustomer_RiskManagement -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
